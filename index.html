@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trustbuy</title>
+	 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<script type="text/javascript" src="java/sweetalert-dev.js"></script>
+	<script type="text/javascript" src="java/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="head" id="head"></div>
+		<script type="text/javascript">
+	$(document).ready(function() {
+				header="id=header";
+					$.ajax({
+				url:"header.php",
+                 type:"GET",
+                 data:header,
+                 contentType:false,
+                 cache:false,
+                 crossDomain:true,
+                 processData:false,
+                 beforeSend:function(data){
+                 },
+                 success:function(data){
+                   //$('.welcome').hide();
+                 	$('.head').show();
+                 	$('.head').html(data);
+                 },
+                 error:function(){
+                 	//alert('error typing to processData');
+                 }
+
+				})
+		
+	})
+
+	</script>
+	<!-----------------------------------row----------------->
+	<section class="row">
+	<div class="transparent_div">
+		<!--------------------------------->
+		<div class="center_holder">
+			<!---------------------------form-------------->
+			<script type="text/javascript">
+        $(document).ready(function () {
+        $('.indx').on('keyup',function (para) {
+           // para.preventDefault();
+          $.ajax({
+                url:"myphp/forhome.php",
+                 type:"post",
+                 data:new FormData(this),
+                 contentType:false,
+                 cache:false,
+                 processData:false,
+                 beforeSend:function(){
+                   //alert(1);
+                   $('.loadmyp').css({"display":"flex","align-items":"center","justify-content":"center","width":"100%","position": "absolute"});
+                 },
+                 success:function(para2){
+                  $('.loadmyp').html(para2);
+                 },
+                 error:function(){
+                  //alert('error typing to processData');
+                 }
+
+          })
+        });
+        })
+      </script>
+      <div class="loadmyp"></div>
+			<form class="tracking_form indx" action="myphp/forhome.php" method="post">
+			<label>Track ID</label>
+			<span class="input_t"><input type="text" name="track" placeholder="Enter tracking number"><button class='bx bx-chevron-right'></button></span>
+			</form>
+			<!---------------tittle--------------->
+			<h1 class="write">Shop for Items
+at any online store
+in Nigeria without money leaving your wallet.</h1>
+		</div>
+		
+	</div>
+	</section>
+
+	<!------------------------------------------row2---------------->
+	<p class="myp">Ship your packages in Nigeria with ease whenever you shop on e-commerce stores</p>
+	<section class="row_1">
+		<!---------------------------------------->
+		<div class="how_to_ship">
+			<h2>How to ship with Trustbuy</h2>
+			<div class="small_ship">
+				<h1> <i class='bx bx-id-card icon'></i>Create an Account.</h1>
+				<p>Create an Account on Trustbuy and tell us what you're buying.</p>
+			</div>
+		<div class="small_ship">
+				<h1><i class='bx bx-wallet icon'></i>Fund your Trustbuy Wallet . </h1>
+				<p>Money doesn't leave your wallet till after you verify an item.</p>
+			</div>
+			<div class="small_ship">
+				<h1> <i class='bx bxs-cart  icon'></i>Take your item to the checkout station</h1>
+				<p>when your receive an order as a business or secondhand seller take your item to the checkout station in your region</p>
+			</div>
+		</div>
+		<!-------------------------------------->
+		<div class="her_image"></div>
+		<!----<section class="designimage"></section>--->
+	</section>
+	<!-----------------------------who we are---------------->
+	<section class="who">
+		<div class="who_image"></div>
+		<!---------------------writreup---------------->
+		<div class="con_who">
+			<h1>What We Do.</h1>
+			<ul>
+				<li>See something you like from an online store, tell us, we buy in your name and send it to you.</li>
+				<li>Let Trustbuy, buy and handle all the second hand items with your digital presents from all your favourite classified stores like jiji and Olist or see something you like on a friend's facebook page or instagram handle to sellers on whatsapp. to sellers that are not in your region</li>
+			</ul>
+			<h1>We make it happen..!</h1>
+		</div>
+	</section>
+
+
+	<!-------------------------------section----->
+	<section class="trust_banner">
+		<div class="rowlling">
+			<h2 class="whyt">Why we use TrustBuy</h2>
+			<div class="small_rowling">
+				<i class="fa fa-check"></i>
+				<p >Trustbuy totally eliminate the risk of having you take your business to meet up points.</p>
+			</div>
+
+			<div class="small_rowling">
+				<i class="fa fa-check"></i>
+				<p >No more what i order VS what i got</p>
+			</div>
+
+			<div class="small_rowling">
+				<i class="fa fa-check"></i>
+				<p >Business can now get orders from serious buyers</p>
+			</div>
+		</div>
+
+
+
+		<div class="obed_design"></div>
+	</section>
+	<!-----------------watin people talk about the website----->
+	<section class="review">
+		<h3 class="more">More Than 100 Happy Customers Trust Our Services</h3>
+		<!--slid conta---->
+		<div class="slid_div">
+			<div class="slid slid1">
+				<img src="img/quot.png">
+				<p>i have been afride of buying anything online i prefer just going to physical stores but i tried trustbuy and they delivered.</p>
+				<div class="review_name">
+					<img src="img/24.jpeg">
+					<h2 class="reviewname">Ruth mathew<span>Fashion Designer</span></h2>
+					<div class="color">
+						<p></p>
+						<p></p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+
+
+
+             <div class="slid slid2">
+				<img src="img/quot.png">
+				<p>i'd rate them 5 star for making me believe in e-commerce store again.</p>
+				<div class="review_name">
+					<img src="img/22.jpeg">
+					<h2 class="reviewname">Grace John<span>Accessories store</span></h2>
+					<div class="color">
+						<p></p>
+						<p></p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="slid slid3">
+				<img src="img/quot.png">
+				<p>trustbuy is another option for pay on delivery,i use trustbuy for most of my online orders they are just better in very way, trustbuy is the future of e-commerce.</p>
+				<div class="review_name">
+					<img src="img/23.jpeg">
+					<h2 class="reviewname">Happiness williams<span>operation digital marketer</span></h2>
+					<div class="color">
+						<p class="c1"></p>
+						<p class="c2"></p>
+						<p class="c3"></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<script type="text/javascript">
+		$('.slid2').hide();
+		$('.slid3').hide();
+		var c=0;
+		function slidx() {
+			c++;
+			if (c==4) {c=1}
+			if (c==1) {
+		$('.slid1').show(1000);
+		$('.slid2').hide(1000);
+		$('.slid3').hide(1000);
+		$('.c1').css({"color":"red"});
+
+			}
+		else if (c==2) {
+		$('.slid1').hide(1000);
+		$('.slid2').show(1000);
+		$('.slid3').hide(1000);	
+		}
+		else{
+		$('.slid1').hide(1000);
+		$('.slid2').hide(1000);
+		$('.slid3').show(1000);		
+		}
+		
+		}
+		setInterval(slidx,4000);
+	</script>
+	<!-----------------lastdiv----------------->
+
+	<section class="last_div">
+		<p>Contact Us</p>
+		<h1>Trustbuy contact details, openings hours and answers for the most<br><center>frequently asked questions.</center> </h1>
+		<div class="link_contact_div">
+			<a href="">Get Start</a>
+			<a href="">Contact Us</a>
+		</div>
+	</section>
+
+	<!---------------------footer----------------------->
+<div class="footer"></div>
+		<script type="text/javascript">
+	$(document).ready(function() {
+				footer="id=footer";
+					$.ajax({
+				url:"footer.php",
+                 type:"GET",
+                 data:header,
+                 contentType:false,
+                 cache:false,
+                 crossDomain:true,
+                 processData:false,
+                 beforeSend:function(data){
+                 },
+                 success:function(data){
+                   //$('.welcome').hide();
+                 	$('.footer').show();
+                 	$('.footer').html(data);
+                 },
+                 error:function(){
+                 	//alert('error typing to processData');
+                 }
+
+				})
+		
+	})
+
+	</script>
+<a href="#head" class="up">up</a>
+</body>
+</html>

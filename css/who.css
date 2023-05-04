@@ -1,0 +1,255 @@
+.who_div{
+	width: 100%;
+	height: 300px;
+	background-color: #F1C34E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.who_div{
+	width: 100%;
+	height: 300px;
+	background-color: #F1C34E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.who_div>h1{
+	font-size: 80px;
+	color: white;
+}
+.who_small{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.small_div{
+	width: 30%;
+	padding: 5px;
+	height: 300px;
+	background-color: #F2F1F8;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.small_div>h1{
+width: 90%;
+font-weight: bold;
+font-size: 25px;
+color: #F1C34E;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.small_div>p{
+width: 90%;
+word-spacing: 1px;
+font-family: Ebrima;
+font-size: 14px;
+word-break: break-all;
+}
+
+.whoimage_and{
+	width: 100%;
+	height: 400px;
+}
+
+.who_imagess_bg{
+	width: 100%;
+	height: 400px;
+	background-image:url('../img/Person-1.webp') ;
+}
+.found_title{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	color: gray;
+}
+
+.images{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.small_name{
+	width: 30%;
+	height: 300px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.small_name>img{
+	width: 150px;
+	height: 150px;
+border-radius: 150px;
+object-fit: cover;
+border: 3px solid #F1C34E;
+}
+.link_small{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link_small>a{
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 10px;
+	color: gray;
+	
+}
+
+
+
+
+
+/*mobile responsive*/
+@media only screen and (max-width:900px){
+	.who_div{
+	width: 100%;
+	height: 300px;
+	background-color: #F1C34E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.who_div{
+	width: 100%;
+	height: 300px;
+	background-color: #F1C34E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.who_div>h1{
+	font-size: 45px;
+	color: white;
+}
+.who_div>p{
+	font-size: 13px;
+	color: white;
+}
+.who_small{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.small_div{
+	margin-top: 10px;
+	width: 90%;
+	padding: 5px;
+	height: 300px;
+	background-color: #F2F1F8;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.small_div>h1{
+width: 90%;
+font-weight: bold;
+font-size: 25px;
+color: #F1C34E;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.small_div>p{
+width: 90%;
+word-spacing: 1px;
+font-family: Ebrima;
+font-size: 14px;
+word-break: break-all;
+}
+
+.whoimage_and{
+	width: 100%;
+	height: 400px;
+}
+
+.who_imagess_bg{
+	width: 100%;
+	height: 400px;
+	background-image:url('../img/Person-1.webp') ;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.found_title{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	text-align: center;
+	color: gray;
+}
+
+.images{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.small_name{
+	width: 90%;
+	height: 300px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.small_name>img{
+	width: 150px;
+	height: 150px;
+border-radius: 150px;
+object-fit: cover;
+border: 3px solid #F1C34E;
+}
+.link_small{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.link_small>a{
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 10px;
+	color: gray;
+	
+}
+}

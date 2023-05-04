@@ -1,0 +1,30 @@
+.track{
+	width: 100%;
+	height: 200px;
+	background-color: ;
+}
+.r1{
+height: 50px;
+}
+.rows{
+	width:100% ;
+	height: 70px;
+	background-color: ;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.rows span{
+width: 16%;
+background-color: ;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.rows span>img{
+
+	height: 70px;
+
+}

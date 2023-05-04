@@ -1,0 +1,135 @@
+header{
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-div{
+  width: 20%;
+  height: auto;
+}
+.logo-div img{
+
+  height: 40px;
+}
+
+.mycontainer{
+  width: 100%;
+  background-color: #F8FAFC;
+  height: 90vh;
+}
+.divlabel{
+  width: 20%;
+  height: 50px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.divlabel>h4{
+font-size: 14px;
+}
+.hidenav{
+  display: none;
+}
+.hidenave{
+  display: none;
+}
+/*mobile*/
+@media only screen and (max-width: 900px){
+
+  .hidenave{
+    width: 70%;
+    height: 100vh;
+    top: 0px;
+    background-color: #FFCE44;
+    display: none;
+    left: 30%;
+    position: absolute;
+  }
+  .hidenavehead{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+   .hidenavehead>.divlabel{
+  display: flex;
+  width: 100%;
+  color: white;
+  }
+  .hidenav{
+  display: flex;
+  width: 60px;
+  font-size: 20px;
+  border-radius:5px ;
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid #FFC107;
+  color: #FFC107;
+  align-items: center;
+  justify-content: center;
+}
+.navsec2{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.navsec2>a{
+  color: white;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ 
+}
+.navsec2 a>p{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+  header{
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-div{
+  width: 50%;
+  height: auto;
+}
+.logo-div img{
+
+  height: 40px;
+}
+
+.mycontainer{
+  width: 100%;
+  background-color: #F8FAFC;
+  height: 90vh;
+}
+.divlabel{
+  width: 20%;
+  height: 50px;
+ 
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.divlabel>h4{
+font-size: 14px;
+}
+}
